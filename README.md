@@ -18,7 +18,7 @@ This project leverages **unsupervised machine learning** to segment countries ba
 
 ## 🌐 Live Application
 
-🚀 **Streamlit App:** *(Add your deployed link here)*
+🚀 **Streamlit App:** *https://prathameshk1995-strategic-aid-allocatio-appstreamlit-app-wfangh.streamlit.app/*
 
 Users can input country-level indicators and get:
 
@@ -60,8 +60,7 @@ The dataset contains country-level indicators:
   * High Child Mortality
   * Low Income
   * High Inflation
-  * Trade Ratio
-  * Health Efficiency
+  * Low Life Expectancy
 
 ---
 
@@ -69,7 +68,6 @@ The dataset contains country-level indicators:
 
 * **K-Means (Primary Model)**
 * Hierarchical Clustering (validation)
-* DBSCAN (outlier-aware clustering)
 
 ---
 
@@ -139,11 +137,26 @@ Since K-Means is unsupervised, interpretability is achieved through:
 
 ---
 
-## 📈 Key Insights
+## 📊 Tableau Dashboard
 
-* Higher income is strongly associated with **lower child mortality**
-* Increased health spending improves **life expectancy**
-* High inflation signals **economic instability in mid-tier countries**
+This interactive dashboard highlights countries based on socio-economic risk factors such as child mortality, inflation, fertility, life expectancy and income.
+
+It enables stakeholders to:
+- Identify countries requiring immediate financial aid
+- Analyze key drivers of risk
+- Compare socio-economic indicators across clusters
+
+👉 [View Interactive Dashboard](https://public.tableau.com/app/profile/prathamesh.kamble/viz/Strategic_AID_Allocation_dashboard/StrategicAIDAllocation)
+
+---
+
+## 📝 Medium Blog
+
+📖 Deep dive into the project:
+
+👉 [Read the Full Blog on Medium](https://medium.com/@prathameshkamble99/how-i-built-a-data-driven-system-to-identify-countries-that-need-financial-aid-d603a478fbce)
+
+> Learn how machine learning can help identify countries that need financial aid using real-world data.
 
 ---
 
@@ -155,7 +168,7 @@ Strategic Aid Allocation/
 ├── app/                # Streamlit application
 ├── model/              # Serialized model artifacts
 ├── notebooks/          # EDA and modeling
-├── data/               # Dataset
+├── data/               # Dataset, Tableau dashboard
 ├── requirements.txt
 └── README.md
 ```
@@ -174,7 +187,9 @@ Strategic Aid Allocation/
 ## 📬 Contact
 
 **Prathamesh Kamble**
-Data Analyst | Aspiring Data Scientist
+
+Data Scientist
+Email: prathameshkamble99@gmail.com
 Mumbai, India
 
 ---
